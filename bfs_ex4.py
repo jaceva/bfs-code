@@ -1,5 +1,4 @@
 from tree import sample_root_node, print_path
-
 from collections import deque
 
 # Create bfs function, set parameters
