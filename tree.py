@@ -5,7 +5,7 @@ class TreeNode:
    self.value = value
    self.children = []
 
-  def __repr__(self):
+  def __str__(self):
     stack = deque()
     stack.append([self, 0])
     level_str = "\n"
