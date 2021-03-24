@@ -18,6 +18,7 @@ def bfs(root_node, goal_value):
     
     # get current node and test for goal
     current_node = current_path[-1]
+    print(f"Searching node with value {current_node.value}")
     if current_node.value == goal_value:
       return current_path
 
@@ -33,5 +34,5 @@ def bfs(root_node, goal_value):
   return None
     
 print(sample_root_node)
-path = bfs(sample_root_node, "F")
-print_path(path)
+goal_path = bfs(sample_root_node, "F")
+print_path(goal_path)

@@ -20,5 +20,5 @@ def bfs(root_node, goal_value):
   return None
     
 print(sample_root_node)
-path = bfs(sample_root_node, "F")
-print_path(path)
+goal_path = bfs(sample_root_node, "F")
+print_path(goal_path)
