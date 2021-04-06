@@ -4,7 +4,7 @@ from collections import deque
 # Create bfs function, set parameters
 def bfs(root_node, goal_value):
 
-  # and initialize path_queue
+  # initialize path_queue
   path_queue = deque()
 
   # add root path to the queue
